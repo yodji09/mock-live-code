@@ -1,0 +1,18 @@
+npm init -y
+npm install pg sequelize express jsonwebtoken bcryptjs cors
+npm install dotenv --save-dev
+add gitignore
+sequelize init
+set config 
+create db
+generate model
+migrate generate constraint
+perbaiki model jadi model init dan instance method
+add constraint dan association
+add app.js set up
+bikin routingan
+bikin helpers hash password
+bikin generate token helpers
+bikin register di route ama controller jangan lupa hooks hash password returnnya id ama email
+bikin login di route ama controller returnnya token
+bikin side client login ama register
